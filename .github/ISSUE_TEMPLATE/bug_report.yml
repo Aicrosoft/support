@@ -1,0 +1,65 @@
+name: 🐛 Bug 报告 (Bug Report)
+description: 提交应用崩溃、功能故障或显示异常
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您提交反馈！提交前请确认使用的是当前应用的最新版本。
+  - type: dropdown
+    id: product
+    attributes:
+      label: 相关产品 (Product)
+      description: 请选择遇到异常的 Aicrosoft 产品
+      options:
+        - BookFun (悦读)
+        - TrueCost Auto (寻找最中意的车)
+        - FlashNote (流光笔记)
+        - KinTime (家时光)
+        - SavorDaily (三餐四季)
+        - 其他 / 综合支持 (Other)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本 (App Version)
+      placeholder: "例如：v2.1.0"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 设备与系统版本 (Device & OS)
+      placeholder: "例如：iPhone 15 Pro (iOS 17.4) / Pixel 8 (Android 14) / macOS Sonoma (Chrome 124)"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 (Steps to Reproduce)
+      description: 请详细描述导致问题发生的操作流程
+      placeholder: |
+        1. 打开应用...
+        2. 点击...
+        3. 出现异常/崩溃...
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: 预期行为与实际表现 (Expected vs Actual)
+      description: 描述您预期的正常效果，以及实际发生的异常现象
+      placeholder: "预期应该正常打开书籍并开始朗读，实际点击后应用闪退..."
+    validations:
+      required: true
+  - type: textarea
+    id: logs-screenshots
+    attributes:
+      label: 截图或错误日志 (Screenshots or Logs)
+      description: 可直接拖拽图片、录屏或文本日志至此处
+      placeholder: "粘贴日志或拖拽截图文件..."
+    validations:
+      required: false
+
