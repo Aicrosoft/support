@@ -1,0 +1,59 @@
+name: 📱 Device Compatibility & Performance Issue
+description: Report display glitches, lag, high battery drain, or screen scaling issues on specific devices.
+title: "[Perf/Compat]: "
+labels: ["performance", "compatibility"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product Name
+      options:
+        - BookFun (悦读)
+        - TrueCost Auto
+        - FlashNote (流光笔记)
+        - KinTime (家时光)
+        - SavorDaily (三餐四季)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Category
+      options:
+        - UI Glitch / Layout Broken (Screen adaptation, notch/island overlap)
+        - Frame Drops / High Latency / Stuttering
+        - Abnormal Battery Consumption / Overheating
+        - Crash on Launch / Freezing
+        - Input / Touchscreen / Keyboard Glitch
+    validations:
+      required: true
+  - type: input
+    id: device-model
+    attributes:
+      label: Device Model & Architecture
+      placeholder: "e.g., iPad Pro 12.9 (M2), Samsung Galaxy Z Fold 5, ThinkPad X1 (Intel i7), iPhone 13 Mini"
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS Version & Display Settings
+      placeholder: "e.g., iOS 17.5.1, Android 14 (OneUI 6.1), 120Hz ProMotion enabled, Dark Mode"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      placeholder: "Describe when the performance drop or visual glitch occurs..."
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or Screen Recording (Optional)
+      placeholder: "Drop images/videos demonstrating the issue..."
+    validations:
+      required: false
+

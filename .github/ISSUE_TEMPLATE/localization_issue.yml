@@ -1,0 +1,72 @@
+name: 🌐 Translation & Localization Feedback
+description: Report incorrect translations, missing texts, or formatting issues across languages.
+title: "[i18n]: "
+labels: ["localization", "i18n"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product Name
+      options:
+        - BookFun (悦读)
+        - TrueCost Auto
+        - FlashNote (流光笔记)
+        - KinTime (家时光)
+        - SavorDaily (三餐四季)
+        - Website (aicrosoft.com)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Target Language
+      description: Which language contains the error or awkward phrasing?
+      options:
+        - English (en)
+        - 简体中文 (zh-Hans)
+        - 繁體中文 (zh-Hant)
+        - Español (es)
+        - Deutsch (de)
+        - Français (fr)
+        - 한국어 (ko)
+        - Português (Brasil) (pt-BR)
+        - Bahasa Indonesia (id)
+        - Italiano (it)
+        - ไทย (th)
+        - Tiếng Việt (vi)
+        - العربية (ar)
+        - 日本語 (ja)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location of the Text
+      description: Where does this text appear?
+      placeholder: "e.g., Settings > Audio playback dialog, Export menu, Button label on Home screen"
+    validations:
+      required: true
+  - type: textarea
+    id: current-translation
+    attributes:
+      label: Current Text / Translation
+      placeholder: "Paste or describe the existing text..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-translation
+    attributes:
+      label: Suggested Correction & Context
+      placeholder: "Provide the recommended wording and explanation..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (Optional)
+      placeholder: "Drop screenshot highlighting the text..."
+    validations:
+      required: false
+
