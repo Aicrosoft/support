@@ -1,0 +1,41 @@
+name: 📚 Documentation & Guide Feedback
+description: Report errors, broken links, outdated information, or suggest improvements to manuals and FAQs.
+title: "[Docs]: "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product / Topic
+      options:
+        - BookFun Documentation
+        - TrueCost Auto Documentation
+        - FlashNote Documentation
+        - KinTime Documentation
+        - SavorDaily Documentation
+        - Support Repository / README
+        - Official Website FAQs
+    validations:
+      required: true
+  - type: input
+    id: doc-url
+    attributes:
+      label: Documentation Page URL or File Path
+      placeholder: "e.g., https://aicrosoft.com/apps/flashnote/ or README.de.md"
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Description of the Documentation Issue
+      placeholder: "Explain what is incorrect, missing, or needs improvement..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested Content or Correction (Optional)
+      placeholder: "Provide the updated text or suggested clarification..."
+    validations:
+      required: false
+

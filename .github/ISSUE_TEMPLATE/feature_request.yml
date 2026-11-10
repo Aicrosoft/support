@@ -1,48 +1,47 @@
-name: 💡 功能建议 (Feature Request)
-description: 为 Aicrosoft 旗下应用提出新的功能点或体验优化建议
+name: 💡 Feature Request
+description: Propose a new feature, workflow improvement, or enhancement.
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
       value: |
-        感谢您为 Aicrosoft 旗下产品提供宝贵建议！我们将认真评估每一个可行性构想。
+        Thank you for helping us improve Aicrosoft products! Please share your thoughts and suggestions below.
   - type: dropdown
     id: product
     attributes:
-      label: 目标产品 (Target Product)
-      description: 请选择希望增加该特性的 Aicrosoft 产品
+      label: Target Product
+      description: Select which product this suggestion applies to.
       options:
         - BookFun (悦读)
-        - TrueCost Auto (寻找最中意的车)
+        - TrueCost Auto
         - FlashNote (流光笔记)
         - KinTime (家时光)
         - SavorDaily (三餐四季)
-        - 全局生态建议 (Ecosystem)
+        - Ecosystem / Cross-app
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: 需求背景与痛点 (Problem / Motivation)
-      description: 解释您在什么场景下遇到了什么不便，或者为何需要该功能
-      placeholder: "日常在电脑端写笔记时，希望能快速同步..."
+      label: Problem Statement / Motivation
+      description: What challenge or inconvenience are you facing, or what is the background for this request?
+      placeholder: "When reading long documents in BookFun, I often need..."
     validations:
       required: true
   - type: textarea
-    id: solution
+    id: proposed-solution
     attributes:
-      label: 期望的解决方案 (Proposed Solution)
-      description: 清晰描述您希望增加的功能细节及预期的交互方式
-      placeholder: "期望在侧边栏增加一个快捷导出按钮..."
+      label: Proposed Solution & Expected Behavior
+      description: Clearly describe the feature you would like to see and how it should work.
+      placeholder: "Add an option to customize the shortcut or..."
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: 考虑过的替代方案 (Alternatives Considered)
-      description: 是否尝试过其他替代操作或方案？
-      placeholder: "目前通过手动复制黏贴处理..."
+      label: Alternatives Considered (Optional)
+      description: Have you considered or tried any workarounds?
+      placeholder: "Currently I manually export to..."
     validations:
       required: false
-
