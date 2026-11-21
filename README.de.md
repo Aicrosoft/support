@@ -32,6 +32,7 @@ Dieses Repository dient der zentralen Benutzerbetreuung, Fehlerverfolgung, Samml
 - **[FlashNote](https://aicrosoft.com/apps/flashnote/de/) (流光笔记)**: Ablenkungsfreier Markdown-Editor in der Seitenleiste und Browser-Erweiterung (Chrome & Edge) mit KI-Assistent, Web-Clipping, Mermaid-Diagrammen, KaTeX-Formeln und 1-Klick-Veröffentlichung auf statischen Blogs.
 - **[KinTime](https://aicrosoft.com/de/) (家时光)**: Meilenstein-Tracker und Timer, um jede Minute und Erinnerung des Aufwachsens Ihres Kindes und Familienlebens festzuhalten.
 - **[SavorDaily](https://aicrosoft.com/de/) (三餐四季)**: Kulinarisches Tagebuch, um Genussmomente und Essenserinnerungen poetisch festzuhalten.
+- **[EchoPilot](https://aicrosoft.com/de/)**: Intelligenter Meeting-Assistent und Audio-Notiztool mit nahtloser Aufnahme, Transkription und KI-Zusammenfassungen.
 
 ---
 

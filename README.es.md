@@ -32,6 +32,7 @@ Este repositorio está diseñado para centralizar la atención al usuario, recop
 - **[FlashNote](https://aicrosoft.com/apps/flashnote/es/) (流光笔记)**: Herramienta de escritura Markdown en barra lateral y extensión de navegador (Chrome y Edge), con asistente de IA, captura web inteligente, diagramas Mermaid, fórmulas KaTeX y publicación en blogs estáticos con un solo clic.
 - **[KinTime](https://aicrosoft.com/es/) (家时光)**: Registrador de hitos y temporizador para atesorar cada minuto y recuerdo especial del crecimiento de tu bebé y familia.
 - **[SavorDaily](https://aicrosoft.com/es/) (三餐四季)**: Diario gastronómico poético para capturar cada bocado y recuerdo culinario cotidiano.
+- **[EchoPilot](https://aicrosoft.com/es/)**: Asistente inteligente de reuniones y notas de voz, con grabación sin interrupciones, transcripción y resúmenes con IA.
 
 ---
 

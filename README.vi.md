@@ -32,6 +32,7 @@ Kho lưu trữ này được thiết lập nhằm cung cấp kênh hỗ trợ t�
 - **[FlashNote](https://aicrosoft.com/apps/flashnote/vi/) (流光笔记)**: Công cụ sáng tác Markdown trên thanh bên và tiện ích mở rộng trình duyệt (Chrome & Edge), tích hợp trợ lý AI, lưu trang web thông minh, sơ đồ Mermaid, công thức KaTeX và xuất bản blog tĩnh chỉ với một cú nhấp chuột.
 - **[KinTime](https://aicrosoft.com/vi/) (家时光)**: Ứng dụng theo dõi mốc phát triển và bộ đếm thời gian lưu giữ từng khoảnh khắc quý giá trong hành trình lớn khôn của bé và gia đình.
 - **[SavorDaily](https://aicrosoft.com/vi/) (三餐四季)**: Nhật ký ẩm thực thi vị giúp lưu giữ từng hương vị và ký ức ẩm thực thường nhật.
+- **[EchoPilot](https://aicrosoft.com/vi/)**: Trợ lý cuộc họp thông minh và ghi chú âm thanh với khả năng ghi âm mượt mà, chuyển giọng nói thành văn bản và tóm tắt AI.
 
 ---
 

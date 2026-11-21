@@ -1,27 +1,32 @@
-name: 🌐 Translation & Localization Feedback
-description: Report incorrect translations, missing texts, or formatting issues across languages.
+name: 🌐 Translation & Localization Feedback (翻译与多语言反馈)
+description: |
+  Report incorrect translations, missing texts, or formatting issues across languages.
+  反馈各语言版本中的翻译错漏、文案不通顺或文本排版格式问题。
 title: "[i18n]: "
 labels: ["localization", "i18n"]
 body:
   - type: dropdown
     id: product
     attributes:
-      label: Product Name
+      label: Product Name (产品名称)
       options:
         - BookFun (悦读)
         - TrueCost Auto
         - FlashNote (流光笔记)
         - KinTime (家时光)
         - SavorDaily (三餐四季)
+        - EchoPilot (同声知翼)
         - Website (aicrosoft.com)
-        - Other
+        - Other (其他)
     validations:
       required: true
   - type: dropdown
     id: language
     attributes:
-      label: Target Language
-      description: Which language contains the error or awkward phrasing?
+      label: Target Language (目标语言)
+      description: |
+        Which language contains the error or awkward phrasing?
+        哪种语言存在错译或语病？
       options:
         - English (en)
         - 简体中文 (zh-Hans)
@@ -43,30 +48,31 @@ body:
   - type: input
     id: location
     attributes:
-      label: Location of the Text
-      description: Where does this text appear?
+      label: Location of the Text (文本所在位置)
+      description: |
+        Where does this text appear?
+        该文本出现在哪个页面或菜单位置？
       placeholder: "e.g., Settings > Audio playback dialog, Export menu, Button label on Home screen"
     validations:
       required: true
   - type: textarea
     id: current-translation
     attributes:
-      label: Current Text / Translation
+      label: Current Text / Translation (当前显示的文本)
       placeholder: "Paste or describe the existing text..."
     validations:
       required: true
   - type: textarea
     id: suggested-translation
     attributes:
-      label: Suggested Correction & Context
+      label: Suggested Correction & Context (建议修改文案及理由)
       placeholder: "Provide the recommended wording and explanation..."
     validations:
       required: true
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshot (Optional)
+      label: Screenshot (界面截图 - 可选)
       placeholder: "Drop screenshot highlighting the text..."
     validations:
       required: false
-

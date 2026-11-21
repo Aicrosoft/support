@@ -1,11 +1,17 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💬 Q&A and Discussions (Community Forum)
+  - name: 💬 Q&A and Discussions (社区问答与交流)
     url: https://github.com/Aicrosoft/support/discussions
-    about: For general questions, setup advice, usage tips, and ideas, please join our GitHub Discussions.
-  - name: 🌐 Official Website & App Directory
+    about: |
+      For general questions, setup advice, usage tips, and ideas, please join our GitHub Discussions.
+      日常使用指导、配置答疑、功能探讨或社区交流，请前往 GitHub Discussions。
+  - name: 🌐 Official Website & App Directory (官网与产品目录)
     url: https://aicrosoft.com/
-    about: Explore products, release notes, and documentation across all supported languages.
-  - name: 🛡️ Security Vulnerability Reporting
+    about: |
+      Explore products, release notes, and documentation across all supported languages.
+      浏览产品动态、发布说明以及多语言官方文档。
+  - name: 🛡️ Security Vulnerability Reporting (安全漏洞上报)
     url: https://github.com/Aicrosoft/support/security/advisories/new
-    about: If you believe you have found a security vulnerability, please report it privately.
+    about: |
+      If you believe you have found a security vulnerability, please report it privately.
+      若发现潜在的安全漏洞，请通过私密渠道向我们反馈。

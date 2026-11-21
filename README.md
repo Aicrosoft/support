@@ -32,6 +32,7 @@ This repository is dedicated to providing centralized user support, collecting b
 - **[FlashNote](https://aicrosoft.com/apps/flashnote/) (流光笔记)**: Sidebar Markdown distraction-free creation tool and browser extension (Chrome & Microsoft Edge) featuring AI assistance, web clipping, Mermaid diagrams, KaTeX formulas, knowledge-base compilation, and one-click static blog publishing.
 - **[KinTime](https://aicrosoft.com/) (家时光)**: Cherish and track every minute and milestone of your baby's growth and family life with precise timers and memory logs.
 - **[SavorDaily](https://aicrosoft.com/) (三餐四季)**: A poetic culinary journal to capture every bite and daily food memories.
+- **[EchoPilot](https://aicrosoft.com/)**: Intelligent meeting assistant, audio recording, and automated transcription & note-taking tool.
 
 ---
 

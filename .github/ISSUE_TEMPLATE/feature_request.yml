@@ -1,5 +1,7 @@
-name: 💡 Feature Request
-description: Propose a new feature, workflow improvement, or enhancement.
+name: 💡 Feature Request (功能与改进建议)
+description: |
+  Propose a new feature, workflow improvement, or enhancement.
+  为 Aicrosoft 旗下产品提出新功能、工作流优化或体验改进建议。
 title: "[Feature]: "
 labels: ["enhancement"]
 body:
@@ -7,41 +9,51 @@ body:
     attributes:
       value: |
         Thank you for helping us improve Aicrosoft products! Please share your thoughts and suggestions below.
+        感谢您帮助我们改进 Aicrosoft 产品！欢迎在下方分享您的想法与构想。
   - type: dropdown
     id: product
     attributes:
-      label: Target Product
-      description: Select which product this suggestion applies to.
+      label: Target Product (目标产品)
+      description: |
+        Select which product this suggestion applies to.
+        请选择该改进建议适用的产品。
       options:
         - BookFun (悦读)
         - TrueCost Auto
         - FlashNote (流光笔记)
         - KinTime (家时光)
         - SavorDaily (三餐四季)
-        - Ecosystem / Cross-app
+        - EchoPilot (同声知翼)
+        - Ecosystem / Cross-app (全局生态 / 跨应用)
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: Problem Statement / Motivation
-      description: What challenge or inconvenience are you facing, or what is the background for this request?
-      placeholder: "When reading long documents in BookFun, I often need..."
+      label: Problem Statement / Motivation (需求背景与痛点)
+      description: |
+        What challenge or inconvenience are you facing, or what is the background for this request?
+        解释您在什么场景下遇到了什么不便，或者为何需要该功能。
+      placeholder: "When using the app, I often encounter..."
     validations:
       required: true
   - type: textarea
     id: proposed-solution
     attributes:
-      label: Proposed Solution & Expected Behavior
-      description: Clearly describe the feature you would like to see and how it should work.
+      label: Proposed Solution & Expected Behavior (期望的解决方案)
+      description: |
+        Clearly describe the feature you would like to see and how it should work.
+        清晰描述您希望增加的功能细节及预期的交互方式。
       placeholder: "Add an option to customize the shortcut or..."
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives Considered (Optional)
-      description: Have you considered or tried any workarounds?
-      placeholder: "Currently I manually export to..."
+      label: Alternatives Considered (考虑过的替代方案 - 可选)
+      description: |
+        Have you considered or tried any workarounds?
+        是否尝试或考虑过其他临时的替代解决办法？
+      placeholder: "Currently I manually..."
     validations:
       required: false

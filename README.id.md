@@ -32,6 +32,7 @@ Repositori ini ditujukan untuk memusatkan layanan bantuan pengguna, menampung la
 - **[FlashNote](https://aicrosoft.com/apps/flashnote/id/) (流光笔记)**: Alat kreasi Markdown bilah samping dan ekstensi browser (Chrome & Edge) bebas gangguan, dilengkapi asisten AI, kliping web cerdas, diagram Mermaid, rumus KaTeX, dan publikasi langsung ke blog statis.
 - **[KinTime](https://aicrosoft.com/id/) (家时光)**: Pelacak pencapaian dan pengatur waktu untuk mengabadikan setiap menit berharga dalam tumbuh kembang buah hati dan kehidupan keluarga.
 - **[SavorDaily](https://aicrosoft.com/id/) (三餐四季)**: Jurnal kuliner puitis untuk mencatat setiap momen bersantap dan kenangan lezat sehari-hari.
+- **[EchoPilot](https://aicrosoft.com/id/)**: Asisten rapat cerdas dan pencatat audio dengan perekaman lancar, transkripsi otomatis, dan ringkasan AI.
 
 ---
 

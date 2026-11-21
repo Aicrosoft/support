@@ -32,6 +32,7 @@
 - **[FlashNote (流光笔记)](https://aicrosoft.com/apps/flashnote/kr/)**: 사이드바 기반 Markdown 집중 저작 도구 및 브라우저 확장 프로그램(Chrome & Edge 지원). AI 어시스턴트, 스마트 웹 클리핑, Mermaid 다이어그램, KaTeX 수식, 정적 블로그 원클릭 게시를 지원합니다.
 - **[KinTime (家时光)](https://aicrosoft.com/kr/)**: 아기의 성장 순간과 가족의 소중한 시간을 기록하고 기념하는 타이머 및 성장 다이어리.
 - **[SavorDaily (三餐四季)](https://aicrosoft.com/kr/)**: 일상의 매 끼니와 미식의 추억을 시적으로 기록하는 푸드 라이프로그.
+- **[EchoPilot](https://aicrosoft.com/kr/)**: 스마트 회의 어시스턴트 및 음성 메모 툴. 매끄러운 회의 녹음, 텍스트 변환 및 AI 요약 지원.
 
 ---
 

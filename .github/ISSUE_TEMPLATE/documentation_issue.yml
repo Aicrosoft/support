@@ -1,18 +1,21 @@
-name: 📚 Documentation & Guide Feedback
-description: Report errors, broken links, outdated information, or suggest improvements to manuals and FAQs.
+name: 📚 Documentation & Guide Feedback (文档与使用指南反馈)
+description: |
+  Report errors, broken links, outdated information, or suggest improvements to manuals and FAQs.
+  反馈帮助文档、使用指南或常见问题中的错误、失效链接、陈旧内容或改进建议。
 title: "[Docs]: "
 labels: ["documentation"]
 body:
   - type: dropdown
     id: product
     attributes:
-      label: Product / Topic
+      label: Product / Topic (产品或主题)
       options:
         - BookFun Documentation
         - TrueCost Auto Documentation
         - FlashNote Documentation
         - KinTime Documentation
         - SavorDaily Documentation
+        - EchoPilot (同声知翼) Documentation
         - Support Repository / README
         - Official Website FAQs
     validations:
@@ -20,22 +23,21 @@ body:
   - type: input
     id: doc-url
     attributes:
-      label: Documentation Page URL or File Path
+      label: Documentation Page URL or File Path (文档链接或文件路径)
       placeholder: "e.g., https://aicrosoft.com/apps/flashnote/ or README.de.md"
     validations:
       required: true
   - type: textarea
     id: feedback
     attributes:
-      label: Description of the Documentation Issue
+      label: Description of the Documentation Issue (文档问题描述)
       placeholder: "Explain what is incorrect, missing, or needs improvement..."
     validations:
       required: true
   - type: textarea
     id: suggested-fix
     attributes:
-      label: Suggested Content or Correction (Optional)
+      label: Suggested Content or Correction (建议修订内容 - 可选)
       placeholder: "Provide the updated text or suggested clarification..."
     validations:
       required: false
-

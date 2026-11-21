@@ -32,6 +32,7 @@
 - **[FlashNote (流光筆記)](https://aicrosoft.com/apps/flashnote/jp/)**：サイドバー型の集中Markdownエディタ＆ブラウザ拡張機能（Chrome / Edge）。AIアシスタント、Webクリップ、Mermaid図表、KaTeX数式、静的ブログへのワンクリック投稿に対応。
 - **[KinTime (家時光)](https://aicrosoft.com/jp/)**：赤ちゃんの成長記録と大切な家族の瞬間を刻むタイマー＆メモリーログ。
 - **[SavorDaily (三餐四季)](https://aicrosoft.com/jp/)**：日々の食事の思い出や美味しい瞬間を大切に残すフードライフログ。
+- **[EchoPilot](https://aicrosoft.com/jp/)**：AIミーティングアシスタント＆音声議事録ツール。自然な録音、高精度な文字起こし、要約作成に対応。
 
 ---
 

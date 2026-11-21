@@ -32,6 +32,7 @@
 - **[FlashNote (流光筆記)](https://aicrosoft.com/apps/flashnote/zh/)**：側邊欄 Markdown 沉浸式創作工具與瀏覽器擴充功能（支援 Chrome 與 Edge），整合 AI 助理、網頁智慧剪藏、圖表與公式排版，並支援一鍵發布至靜態部落格。
 - **[KinTime (家時光)](https://aicrosoft.com/zh/)**：寶寶成長歷程記錄與倒數計時工具，細緻保存成長的每一分每一秒。
 - **[SavorDaily (三餐四季)](https://aicrosoft.com/zh/)**：日常飲食與料理回憶手帳，詩意留存每一刻的滋味。
+- **[EchoPilot (同聲知翼)](https://aicrosoft.com/zh/)**：智慧會議助理與語音紀錄工具，支援無感會議錄音、語音轉文字與 AI 重點摘要。
 
 ---
 

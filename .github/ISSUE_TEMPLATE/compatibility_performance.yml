@@ -1,59 +1,64 @@
-name: 📱 Device Compatibility & Performance Issue
-description: Report display glitches, lag, high battery drain, or screen scaling issues on specific devices.
+name: 📱 Device Compatibility & Performance Issue (设备兼容与性能问题)
+description: |
+  Report display glitches, lag, high battery drain, or screen scaling issues on specific devices.
+  反馈特定设备上的界面异常、掉帧卡顿、异常发热耗电或屏幕缩放适配问题。
 title: "[Perf/Compat]: "
 labels: ["performance", "compatibility"]
 body:
   - type: dropdown
     id: product
     attributes:
-      label: Product Name
+      label: Product Name (产品名称)
       options:
         - BookFun (悦读)
         - TrueCost Auto
         - FlashNote (流光笔记)
         - KinTime (家时光)
         - SavorDaily (三餐四季)
-        - Other
+        - EchoPilot (同声知翼)
+        - Other (其他)
     validations:
       required: true
   - type: dropdown
     id: issue-type
     attributes:
-      label: Issue Category
+      label: Issue Category (问题分类)
       options:
-        - UI Glitch / Layout Broken (Screen adaptation, notch/island overlap)
-        - Frame Drops / High Latency / Stuttering
-        - Abnormal Battery Consumption / Overheating
-        - Crash on Launch / Freezing
-        - Input / Touchscreen / Keyboard Glitch
+        - UI Glitch / Layout Broken (界面错位 / 屏幕适配问题)
+        - Frame Drops / High Latency / Stuttering (掉帧 / 卡顿 / 延迟高)
+        - Abnormal Battery Consumption / Overheating (异常耗电 / 发热)
+        - Crash on Launch / Freezing (启动崩溃 / 无响应卡死)
+        - Input / Touchscreen / Keyboard Glitch (触屏输入 / 软键盘异常)
     validations:
       required: true
   - type: input
     id: device-model
     attributes:
-      label: Device Model & Architecture
+      label: Device Model & Architecture (设备型号与硬件架构)
       placeholder: "e.g., iPad Pro 12.9 (M2), Samsung Galaxy Z Fold 5, ThinkPad X1 (Intel i7), iPhone 13 Mini"
     validations:
       required: true
   - type: input
     id: os-version
     attributes:
-      label: OS Version & Display Settings
+      label: OS Version & Display Settings (系统版本与显示设置)
       placeholder: "e.g., iOS 17.5.1, Android 14 (OneUI 6.1), 120Hz ProMotion enabled, Dark Mode"
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
-      label: Issue Description
+      label: Issue Description (详细现象描述)
+      description: |
+        Describe when the performance drop or visual glitch occurs.
+        详细描述性能下降或显示异常出现的时机与表现。
       placeholder: "Describe when the performance drop or visual glitch occurs..."
     validations:
       required: true
   - type: textarea
     id: media
     attributes:
-      label: Screenshots or Screen Recording (Optional)
+      label: Screenshots or Screen Recording (截图或录屏 - 可选)
       placeholder: "Drop images/videos demonstrating the issue..."
     validations:
       required: false
-

@@ -1,5 +1,7 @@
-name: 🐛 Bug Report
-description: Report a crash, malfunction, or unexpected behavior in any Aicrosoft product.
+name: 🐛 Bug Report (缺陷与故障报告)
+description: |
+  Report a crash, malfunction, or unexpected behavior in any Aicrosoft product.
+  提交 Aicrosoft 旗下产品的崩溃、功能故障或异常表现。
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
@@ -7,61 +9,75 @@ body:
     attributes:
       value: |
         Thank you for reporting an issue! Please ensure you are running the latest version of the app before submitting.
+        感谢您提交反馈！提交前请确认使用的是当前应用的最新版本。
   - type: dropdown
     id: product
     attributes:
-      label: Product Name
-      description: Select the Aicrosoft application or service experiencing the issue.
+      label: Product Name (产品名称)
+      description: |
+        Select the Aicrosoft application or service experiencing the issue.
+        请选择遇到异常的 Aicrosoft 产品或服务。
       options:
         - BookFun (悦读)
         - TrueCost Auto
         - FlashNote (流光笔记)
         - KinTime (家时光)
         - SavorDaily (三餐四季)
-        - Other / Ecosystem
+        - EchoPilot (同声知翼)
+        - Other / Ecosystem (其他 / 综合生态)
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: App Version
-      description: What version of the application are you using?
+      label: App Version (应用版本)
+      description: |
+        What version of the application are you using?
+        请填写您当前使用的应用版本号。
       placeholder: "e.g., v2.1.0 (Build 2026.11)"
     validations:
       required: true
   - type: input
     id: environment
     attributes:
-      label: Operating System & Device
-      description: Specify your device model and OS/browser version.
+      label: Operating System & Device (系统与设备信息)
+      description: |
+        Specify your device model and OS/browser version.
+        请提供您的设备机型以及操作系统/浏览器版本。
       placeholder: "e.g., iOS 17.5 / iPhone 15 Pro, Android 14 / Pixel 8, macOS 14.5 / Chrome 125"
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce
-      description: Detailed steps explaining how to reproduce the issue.
+      label: Steps to Reproduce (复现步骤)
+      description: |
+        Detailed steps explaining how to reproduce the issue.
+        请详细描述导致问题发生的操作流程。
       placeholder: |
-        1. Open the app...
-        2. Navigate to...
-        3. Click on...
-        4. See error or crash.
+        1. Open the app (打开应用)...
+        2. Navigate to (进入)...
+        3. Click on (点击)...
+        4. See error or crash (复现异常或闪退).
     validations:
       required: true
   - type: textarea
     id: expected-actual
     attributes:
-      label: Expected vs. Actual Behavior
-      description: What did you expect to happen, and what happened instead?
+      label: Expected vs. Actual Behavior (预期行为与实际表现)
+      description: |
+        What did you expect to happen, and what happened instead?
+        请描述您预期的正常效果，以及实际发生的异常现象。
       placeholder: "Expected the audio to play continuously; instead, the app crashed immediately."
     validations:
       required: true
   - type: textarea
     id: logs-screenshots
     attributes:
-      label: Screenshots or Logs (Optional)
-      description: Drag and drop screenshots, screen recordings, or paste relevant error logs here.
+      label: Screenshots or Logs (截图或错误日志 - 可选)
+      description: |
+        Drag and drop screenshots, screen recordings, or paste relevant error logs here.
+        可直接拖拽截图、录屏或粘贴错误日志至此处。
       placeholder: "Drop images/logs here..."
     validations:
       required: false
